@@ -11,6 +11,9 @@ php bin/console server:start
 
 then you can connect via websocket and run json requests in following format on your entities:
 ```
+{ 'rest:post User 14 {username:'john doe'}' }
+```
+```
 { 'rest:get User 14' }
 ```
 result will look like this

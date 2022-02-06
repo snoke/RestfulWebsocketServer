@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Server\Command;
+namespace App\Command;
 
 use Symfony\Component\Serializer\SerializerInterface;
 use Doctrine\ORM\EntityManagerInterface;

@@ -10,7 +10,7 @@ use App\Api\JsonApi\CommandCollection;
 use App\Api\JsonApi\JsonCommandResponse;
 use App\Api\JsonApi\JsonCommandRequest;
 use App\Api\JsonApi\Worker\CallbackResponder;
-use App\Server\WebsocketServer;
+use App\WebsocketServer;
 
 use Ratchet\ConnectionInterface;
 use Symfony\Component\Console\Command\Command;
